@@ -1,3 +1,15 @@
 body {
     background-color: rgb(15, 15, 194);
 }
+
+.header {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #887e7e;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Righteous', cursive; */
