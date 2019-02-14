@@ -15,6 +15,7 @@ body {
     border-width: 4px;
     border-color: palegoldenrod;
     padding: 20px;
+    
 }
 
 .categories {
@@ -33,12 +34,54 @@ body {
     flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: rgb(219, 200, 28);
+    font-size: 25px;
+    justify-content: space-between;
 }
 
 .fourhundy {
     display: flex;
     flex-wrap: wrap;
-    
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: rgb(219, 200, 28);
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.eighthundy {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: rgb(219, 200, 28);
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.sixhundy {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: rgb(219, 200, 28);
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.thousand {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: rgb(219, 200, 28);
+    font-size: 25px;
+    justify-content: space-between;
 }
 
 
