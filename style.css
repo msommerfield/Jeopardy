@@ -15,7 +15,7 @@ body {
     border-style: solid;
     border-width: 4px;
     border-color: palegoldenrod;
-    padding: 20px;
+    padding: 5px;
     align-content: stretch;
     
 }
@@ -23,12 +23,12 @@ body {
 .categories {
     display: flex;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 27px;
     justify-content: space-between;
     font-family: 'Abril Fatface', cursive;
     color: rgb(219, 200, 28);
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .twohundy {
@@ -93,6 +93,28 @@ body {
     padding: 10px;
     margin: 5px;
 }
+
+.players {
+    flex-direction: row;
+    display: inline;
+    flex-wrap: wrap;
+    padding: 5px;
+    align-content: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: palegoldenrod;
+    justify-content: space-between;
+}
+
+.playerone.playertwo {
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: inline;
+}
+
+
 
 
 
