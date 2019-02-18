@@ -10,22 +10,22 @@
 //include the content in the model on the main page
 
 
-let twohundredpointquestions = {
-    twoo: {
-        question: "some question",
-        rightanswer: "thats right",
-        wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2",
-            "wrong answer 3"
-        ]
-    },
-    twoone: {
+// let twohundredpointquestions = {
+//     twoo: {
+//         question: "some question",
+//         rightanswer: "thats right",
+//         wronganswer: [
+//             "wrong answer 1",
+//             "wrong answer 2",
+//             "wrong answer 3"
+//         ]
+//     },
+//     twoone: {
 
-    },
-}
+//     },
+// }
 
-$("#myModal").modal()
+// calling myModal $("#myModal").modal()
 
 // $('.box').on('click', function(evt) {
 //     let questionId = evt.target.id;
