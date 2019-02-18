@@ -36,19 +36,19 @@ let twohundredpointquestions = {
         ]
     },
     twothree: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This is the process of making a JavaScript file smaller by, among other things, removing all line breaks and whitespace, reducing the length of variable and function names, and stripping out all comments.",
+        rightanswer: "What is Minification?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is Uncompressed?",
+            "What is the DOM?"
         ]
     },
     twofour: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "Special characters for formatting in strings that can also be applied within quotes that can't be entered the same way as you would in a word processor, including "\n" = new line and  // "\t" = tab.",
+        rightanswer: "What are escape sequences?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are input sequences?",
+            "What is concatenation?"
         ]
     },
     twofive: {
@@ -87,19 +87,19 @@ let fourhundredpointquestions = {
         ]
     },
     fourthree: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "In jQuery syntax you can use these selectors to select an element.",
+        rightanswer: "CSS",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "SQL",
+            "HTML"
         ]
     },
     fourfour: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "Its best practice to minimize the use of these, they can easily be overwritten by other scripts.",
+        rightanswer: "What are global variables?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are local variables?",
+            "What are elements?"
         ]
     },
     fourfive: {
@@ -138,19 +138,19 @@ let sixhundredpointquestions = {
         ]
     },
     sixthree: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "We manipulate these methods in the DOM to update or change content",
+        rightanswer: "What is html() and text()?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is  before() and after()?",
+            "What is prepend() and append()?"
         ]
     },
     sixfour: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This is used on variables that will not be changed in your JavaScript code.",
+        rightanswer: "What is const?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is let?",
+            "What is var?"
         ]
     },
     sixfive: {
@@ -189,19 +189,19 @@ let eighthundredpointquestions = {
         ]
     },
     eightthree: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This common mistake beginners often make when using these methods entail the name of the class not including a period (.).",
+        rightanswer: "What are removeClass() and addClass()?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are removeAttr() and addAttr()?",
+            "What are properties() and attributes()?"
         ]
     },
     eightfour: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This can convert the data automatically to a boolean which will come back as false if it showcases any of these values: 0,””, null, NaN, or undefined.",
+        rightanswer: "What is “!!” operator?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is “&&” operator?",
+            "What is “%%” operator"
         ]
     },
     eightfive: {
@@ -240,19 +240,19 @@ let thousandpointquestions = {
         ]
     },
     thousandthree: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This open source software is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications.",
+        rightanswer: "What is jQuery?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is the DOM?",
+            "What is event handler?"
         ]
     },
     thousandfour: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This method fills all the elements of an array from a start index to an end index with a static value. The end index is not included",
+        rightanswer: "What is the fill() method?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is the sort() method?",
+            "What is the flex() method"
         ]
     },
     thousandfive: {
