@@ -162,9 +162,9 @@ let sixhundredpointquestions = {
         ]
     }
 }
-// ****Overall Questions for the $400 row
-let fourhundredpointquestions = {
-    fouro: {
+// ****Overall Questions for the $800 row
+let eighthundredpointquestions = {
+    eighto: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -172,7 +172,7 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    fourone: {
+    eightone: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -180,7 +180,7 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    fourtwo: {
+    eighttwo: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -188,7 +188,7 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    fourthree: {
+    eightthree: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -196,7 +196,7 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    fourfour: {
+    eightfour: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -204,7 +204,58 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    fourfive: {
+    eightfive: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    }
+}
+// ****Overall Questions for the $1000 row
+let thousandpointquestions = {
+    thousando: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    thousandone: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    thousandtwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    thousandthree: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    thousandfour: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    thousandfive: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
