@@ -20,7 +20,7 @@ let twohundredpointquestions = {
         ]
     },
     twoone: {
-        question: "some question",
+        question: "",
         rightanswer: "thats right",
         wronganswer: [
             "wrong answer 1",
@@ -63,11 +63,11 @@ let twohundredpointquestions = {
 // ****Overall Questions for the $400 row
 let fourhundredpointquestions = {
     fouro: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "src, alt, href are examples of HTML this ",
+        rightanswer: "What is an attribute?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is an object?",
+            "What is an symbol? "
         ]
     },
     fourone: {
@@ -114,11 +114,11 @@ let fourhundredpointquestions = {
 // ****Overall Questions for the $600 row
 let sixhundredpointquestions = {
     sixo: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This element will create a hyperlink on a webpage that when clicked will take the user to google.com? ",
+        rightanswer: "<a href="http://www.google.com">Google</a>",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "<a Google = “http://www.google.com”> </a>",
+            "<a src= “http://www.google.com”> Google</a>"
         ]
     },
     sixone: {
@@ -165,11 +165,11 @@ let sixhundredpointquestions = {
 // ****Overall Questions for the $800 row
 let eighthundredpointquestions = {
     eighto: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This is the correct HTML for inserting an image.",
+        rightanswer: "What is <img src="image.gif" alt=“MyImage">?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is <alt=“MyImage"img src="image.gif" >? ",
+            "What is<img href="image.gif" alt=“MyImage">?"
         ]
     },
     eightone: {
@@ -216,11 +216,11 @@ let eighthundredpointquestions = {
 // ****Overall Questions for the $1000 row
 let thousandpointquestions = {
     thousando: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: " <h1>Haaay</h1>  <h1 id=“Yo">Haay</h1> ",
+        rightanswer: "How do you rewrite the element with an added ID?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "How do you write an element with an added class?",
+            "How do you rewrite the element to make it larger?"
         ]
     },
     thousandone: {
