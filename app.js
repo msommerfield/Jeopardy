@@ -20,11 +20,11 @@ let twohundredpointquestions = {
         ]
     },
     twoone: {
-        question: "",
-        rightanswer: "thats right",
+        question: " Inline - by using the style attribute in HTML elements, Internal - by using a <style> element in the <head> section, External - by using an external CSS file ",
+        rightanswer: "What are the ways CSS can be added to HTML elements? ",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are the ways CSS creates variables?",
+            "What are the the ways jQuery can be added to HTML elements?"
         ]
     },
     twotwo: {
@@ -63,7 +63,7 @@ let twohundredpointquestions = {
 // ****Overall Questions for the $400 row
 let fourhundredpointquestions = {
     fouro: {
-        question: "src, alt, href are examples of HTML this ",
+        question: "src, alt, href are examples of HTML this",
         rightanswer: "What is an attribute?",
         wronganswer: [
             "What is an object?",
@@ -71,11 +71,11 @@ let fourhundredpointquestions = {
         ]
     },
     fourone: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "#",
+        rightanswer: "What character will target the ID of an HTML element with a CSS selector?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What character will target the class of an HTML element with a CSS selector?",
+            "What character will target the object of an HTML element with a CSS selector?"
         ]
     },
     fourtwo: {
@@ -122,11 +122,11 @@ let sixhundredpointquestions = {
         ]
     },
     sixone: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "width, color, font-size, opacity",
+        rightanswer: "What are CSS properties?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are CSS elements?",
+            "What are CSS objects?"
         ]
     },
     sixtwo: {
@@ -173,11 +173,11 @@ let eighthundredpointquestions = {
         ]
     },
     eightone: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "CSS stands for this",
+        rightanswer: "Cascading Style Sheets",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "Cascading Still Sheets",
+            "Cascading Styling Sheets"
         ]
     },
     eighttwo: {
@@ -224,11 +224,11 @@ let thousandpointquestions = {
         ]
     },
     thousandone: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "Each specified property is given this, which indicates how you want to change those stylistic features (e.g. what you want to change the font, width or background color to.) ",
+        rightanswer: "Value",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            " Property",
+            "Declaration"
         ]
     },
     thousandtwo: {
