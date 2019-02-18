@@ -8,7 +8,7 @@ Once players come to the site, they are asked to input their names. The first pl
 
 ## Technologies Used
 * Languages - HTML5, CSS3, Javascript, jQuery
-* Design - Google Fonts
+* Design - Google Fonts, https://jquerymodal.com/
 * Project Planning & User Stories - 
 (https://trello.com/b/SJzPwKg5/jeopardy-project-1 "Trello")
 * Visual Studio Code

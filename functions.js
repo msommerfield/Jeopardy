@@ -12,3 +12,12 @@ var playerscore = 0;
 //     totalbalance += parseInt(cash);
 //     $("#checking .balance").text(`$${totalbalance}`);
 // });
+let object = {
+        keyname: {q:"",
+    a: ""}
+}
+
+//Functions for $200 questions to be answered (traverse the dom to call the parent class)
+// let questionsanswered = {
+//     $(.twohundy).on('click', function(evt) {
+//     }
