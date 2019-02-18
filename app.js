@@ -9,21 +9,92 @@
 //   });
 //include the content in the model on the main page
 
-
-// let twohundredpointquestions = {
-//     twoo: {
-//         question: "some question",
-//         rightanswer: "thats right",
-//         wronganswer: [
-//             "wrong answer 1",
-//             "wrong answer 2",
-//             "wrong answer 3"
-//         ]
-//     },
-//     twoone: {
-
-//     },
-// }
+// ****Overall Questions for the $200 row
+let twohundredpointquestions = {
+    twoo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    twoone: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    ttwotwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    ttwotwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    ttwotwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    }
+}
+// ****Overall Questions for the $400 row
+let fourhundredpointquestions = {
+    twoo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    twoone: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    ttwotwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    ttwotwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    ttwotwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    }
+}
 
 // calling myModal $("#myModal").modal()
 
