@@ -28,11 +28,11 @@ let twohundredpointquestions = {
         ]
     },
     twotwo: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "const variableName;",
+        rightanswer: "How do you declare a constant in Javascript?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "How do you declare a variable in Javascript?",
+            "How do you declare an Object in Javascript?"
         ]
     },
     twothree: {
@@ -79,11 +79,11 @@ let fourhundredpointquestions = {
         ]
     },
     fourtwo: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "// for a single line /* for multiple lines */",
+        rightanswer: " How do you comment out in Javascript code?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "How do you add a function?",
+            "How do you indent in Javascript?"
         ]
     },
     fourthree: {
@@ -130,11 +130,11 @@ let sixhundredpointquestions = {
         ]
     },
     sixtwo: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "Strings, Numbers, Boolean, Undefined, & Null",
+        rightanswer: "What are the five primitive data types in Javascript?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are the five primitive data sets in Javascript?",
+            "What are the attributes of a REPL?"
         ]
     },
     sixthree: {
@@ -181,11 +181,11 @@ let eighthundredpointquestions = {
         ]
     },
     eighttwo: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: " Not using these means that you can't start a line of code with (, [, or a backtick (`)",
+        rightanswer: "What is ending each line with semicolons?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is ending each line with commas?",
+            "What is ending each line with colons?"
         ]
     },
     eightthree: {
@@ -232,11 +232,11 @@ let thousandpointquestions = {
         ]
     },
     thousandtwo: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "Functions that you can run to perform certain operations",
+        rightanswer: "What are methods?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are variables?",
+            "What are objects?"
         ]
     },
     thousandthree: {
