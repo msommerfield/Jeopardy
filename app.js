@@ -12,11 +12,11 @@
 // ****Overall Questions for the $200 row
 let twohundredpointquestions = {
     twoo: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This is the first line of an HTML file",
+        rightanswer: "What is  <!doctype html> ?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is <doctype html>?",
+            "What is <doctype html!>?"
         ]
     },
     twoone: {
