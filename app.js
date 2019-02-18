@@ -115,7 +115,7 @@ let fourhundredpointquestions = {
 let sixhundredpointquestions = {
     sixo: {
         question: "This element will create a hyperlink on a webpage that when clicked will take the user to google.com? ",
-        rightanswer: "<a href="http://www.google.com">Google</a>",
+        rightanswer: ``"<a href="http://www.google.com">Google</a>",`
         wronganswer: [
             "<a Google = “http://www.google.com”> </a>",
             "<a src= “http://www.google.com”> Google</a>"
@@ -166,10 +166,10 @@ let sixhundredpointquestions = {
 let eighthundredpointquestions = {
     eighto: {
         question: "This is the correct HTML for inserting an image.",
-        rightanswer: "What is <img src="image.gif" alt=“MyImage">?",
+        rightanswer: `"What is <img src equals "image dot gif" alt=“MyImage">?"`,
         wronganswer: [
-            "What is <alt=“MyImage"img src="image.gif" >? ",
-            "What is<img href="image.gif" alt=“MyImage">?"
+            `"What is <alt=“MyImage"img src="image.gif">?"`,
+            `"What is<img href="image.gif" alt=“MyImage">?"`
         ]
     },
     eightone: {
@@ -216,7 +216,7 @@ let eighthundredpointquestions = {
 // ****Overall Questions for the $1000 row
 let thousandpointquestions = {
     thousando: {
-        question: " <h1>Haaay</h1>  <h1 id=“Yo">Haay</h1> ",
+        question: `"<h1>Haaay</h1>  <h1 id=“Yo">Haay</h1>"`,
         rightanswer: "How do you rewrite the element with an added ID?",
         wronganswer: [
             "How do you write an element with an added class?",
@@ -264,6 +264,14 @@ let thousandpointquestions = {
         ]
     }
 }
+
+//Adding the clickability of the divs that allows a modal to pop up
+$('#twoo').click(function) {
+.append(.modal('show').twohundredpointquestions.twohundredpointquestions)
+}
+
+//or document.getElementById("twoo").showModal();
+
 
 // calling myModal $("#myModal").modal()
 
