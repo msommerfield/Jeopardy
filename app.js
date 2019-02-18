@@ -52,11 +52,11 @@ let twohundredpointquestions = {
         ]
     },
     twofive: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "Where you reference a variable within a string by using back ticks for the entire string, and put a dollar sign with curly brackets around the variable.",
+        rightanswer: "What is interpolation?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is referencing?",
+            "What is concatenation?"
         ]
     }
 }
@@ -103,11 +103,11 @@ let fourhundredpointquestions = {
         ]
     },
     fourfive: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "These are used to determine the logic between values or variables. There are three common types: !, &&, and || ",
+        rightanswer: "What are logical operators? ",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are native operations",
+            "What are primitive operators??"
         ]
     }
 }
@@ -154,11 +154,11 @@ let sixhundredpointquestions = {
         ]
     },
     sixfive: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This  implies nothing because it never was anything while its counterpart implies explicitly set to nothing at all.",
+        rightanswer: "What is undefined?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is null?",
+            "wWhat is a variable?"
         ]
     }
 }
@@ -205,11 +205,11 @@ let eighthundredpointquestions = {
         ]
     },
     eightfive: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "This allows an expression to be expanded into multiple elements and is useful for separating an array into individual elements.",
+        rightanswer: "What is the Spread Operator? ",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What are Array Methods?",
+            "What are Data Type Objects?"
         ]
     }
 }
@@ -256,11 +256,11 @@ let thousandpointquestions = {
         ]
     },
     thousandfive: {
-        question: "some question",
-        rightanswer: "thats right",
+        question: "jQuery was created in this year.",
+        rightanswer: "What is 2006?",
         wronganswer: [
-            "wrong answer 1",
-            "wrong answer 2"
+            "What is 2008?",
+            "What is 2004?"
         ]
     }
 }
