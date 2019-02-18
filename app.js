@@ -27,7 +27,7 @@ let twohundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    ttwotwo: {
+    twotwo: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -35,7 +35,7 @@ let twohundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    ttwotwo: {
+    twothree: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -43,7 +43,15 @@ let twohundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    ttwotwo: {
+    twofour: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    twofive: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -54,7 +62,7 @@ let twohundredpointquestions = {
 }
 // ****Overall Questions for the $400 row
 let fourhundredpointquestions = {
-    twoo: {
+    fouro: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -62,7 +70,7 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    twoone: {
+    fourone: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -70,7 +78,7 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    ttwotwo: {
+    fourtwo: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -78,7 +86,7 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    ttwotwo: {
+    fourthree: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
@@ -86,7 +94,15 @@ let fourhundredpointquestions = {
             "wrong answer 2"
         ]
     },
-    ttwotwo: {
+    fourfour: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    fourfive: {
         question: "some question",
         rightanswer: "thats right",
         wronganswer: [
