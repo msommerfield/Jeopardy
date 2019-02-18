@@ -111,6 +111,108 @@ let fourhundredpointquestions = {
         ]
     }
 }
+// ****Overall Questions for the $600 row
+let sixhundredpointquestions = {
+    sixo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    sixone: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    sixtwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    sixthree: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    sixfour: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    sixfive: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    }
+}
+// ****Overall Questions for the $400 row
+let fourhundredpointquestions = {
+    fouro: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    fourone: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    fourtwo: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    fourthree: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    fourfour: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    },
+    fourfive: {
+        question: "some question",
+        rightanswer: "thats right",
+        wronganswer: [
+            "wrong answer 1",
+            "wrong answer 2"
+        ]
+    }
+}
 
 // calling myModal $("#myModal").modal()
 
