@@ -264,48 +264,24 @@ function displayQuestion(event) {
     console.log("The id of the box we clicked on is: ", event.target.id);
     hideGame();
 
+
     // SHOW QUESTION THAT WAS CLICKED
     // console.log(gamequestions[event.target.id])
-    event.target.id.insertAdjacentHTML(beginafter, $(".question"))
+    $("#question").append(gamequestions[event.target.id].question)   
+    let btn = $('<button class="right"></button>')
+    btn.append(gamequestions[event.target.id].rightanswer)
+    $("#question").append(btn)
+    for (let i=0; i <gamequestions[event.target.id].wronganswer.length; i++) {
+        let btn2 = $('<button></button>')
+        btn2.append(gamequestions[event.target.id].wronganswer[i])
+        $("#question").append(btn2)
+    }
 }
-
+	
 document.querySelectorAll(".box").forEach((box) => {
     box.addEventListener("click", displayQuestion);
 })
 
-
-
-
-// let hideGame =  $(function () {
-//     $('.gameboard').hide 
-// });
-
-// .addEventListener('click', function() {
-
-//Adding the clickability of the divs that allows a modal to pop up
-// $('#twoo').click(function); {
-// ('#twoo').append.modal('show').twohundredpointquestions.twohundredpointquestions)
-    
-// }
-
-let btn = $('<button></button>')
-btn.append()
-
-//create an event listener with the div called gameboard and hide the gameboard
-
-//or document.getElementById("twoo").showModal();
-
-
-// calling myModal $("#myModal").modal()
-
-// $('.box').on('click', function(evt) {
-//     let questionId = evt.target.id;
-//     console.log(questionId)
-// })
-
-// twohundredpointquestions.twoo.question;
-// twohundredpointquestions.twoo.rightanswer;
-//twohundredpointquestions.twoo.wronganswer;
-
-//work on builsing out content for questions and models and how to call them in javascript with .append jqery dom insertions
-//objects in space 
+$('#questionContainer').on.target. 
+$( "button" ).on
+//event listener to question container, when clicked .target if its a button, see if button contained class of right
