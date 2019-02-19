@@ -256,13 +256,37 @@ let gamequestions = {
         ]
     }
 }
+function hideGame() {
+    $('.gameboard').hide() 
+}
 
+function displayQuestion(event) {
+    console.log("The id of the box we clicked on is: ", event.target.id);
+    hideGame();
+
+    // SHOW QUESTION THAT WAS CLICKED
+    // console.log(gamequestions[event.target.id])
+    event.target.id.insertAdjacentHTML(beginafter, $(".question"))
+}
+
+document.querySelectorAll(".box").forEach((box) => {
+    box.addEventListener("click", displayQuestion);
+})
+
+
+
+
+// let hideGame =  $(function () {
+//     $('.gameboard').hide 
+// });
+
+// .addEventListener('click', function() {
 
 //Adding the clickability of the divs that allows a modal to pop up
-$('#twoo').click(function); {
-('#twoo').append.modal('show').twohundredpointquestions.twohundredpointquestions)
+// $('#twoo').click(function); {
+// ('#twoo').append.modal('show').twohundredpointquestions.twohundredpointquestions)
     
-}
+// }
 
 let btn = $('<button></button>')
 btn.append()

@@ -4,18 +4,18 @@ console.log('hola world')
 //create a function that links players to their scoreboard
 //create functionality that alternates between player ones's turn and player two's turn
 //create score function to connect the player's score with their points
-var playerscore = 0;
-// $('#checking .deposit').on('click', function (evt) {
-//     evt.preventDefault();
-//     var cash = $('#checking input[type="text"]').val();
-//     // console.log(cash)  
-//     totalbalance += parseInt(cash);
-//     $("#checking .balance").text(`$${totalbalance}`);
-// });
-let object = {
-        keyname: {q:"",
-    a: ""}
-}
+// var playerscore = 0;
+// // $('#checking .deposit').on('click', function (evt) {
+// //     evt.preventDefault();
+// //     var cash = $('#checking input[type="text"]').val();
+// //     // console.log(cash)  
+// //     totalbalance += parseInt(cash);
+// //     $("#checking .balance").text(`$${totalbalance}`);
+// // });
+// let object = {
+//         keyname: {q:"",
+//     a: ""}
+// }
 
 //Functions for $200 questions to be answered (traverse the dom to call the parent class)
 // let questionsanswered = {

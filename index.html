@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,101 +9,103 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Righteous" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
-  <script src="functions.js"></script>
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="functions.js"></script>
     <script defer src="app.js"></script>
     <title>Jeopardy!</title>
 </head>
+
 <body>
-    <div class="animated bounceInUp header">
-        <div class="title">Jeopardy!</div>
-      </div>  
-      <div class="categories">
-          <div>HTML</div>
-          <div>CSS</div>
-          <div>Javascript</div>
-          <div>jquery</div>
-          <div>Hacks</div>
-          <div>Fun Facts</div>
-      </div> 
-      <div class="monies">
-      <div class="twohundy">
-        <div id="twoo"class="box">$200</div>
-        <div id="twoone"class="box">$200</div>
-        <div id="twotwo"class="box">$200</div>
-        <div id="twothree"class="box">$200</div>
-        <div id="twofour"class="box">$200</div>
-        <div id="twofive"class="box">$200</div>
-      </div>
-      <div class="fourhundy">
-        <div id="fouro" class="box">$400</div>
-        <div id="fourone" class="box">$400</div>
-        <div id="fourtwo" class="box">$400</div>
-        <div id="fourthree"class="box">$400</div>
-        <div id="fourfour" class="box">$400</div>
-        <div id="fourfive" class="box">$400</div>
+    <div class="gameboard">
+        <div class="animated bounceInUp header">
+            <div class="title">Jeopardy!</div>
         </div>
-     <div class="sixhundy">
-        <div id="sixo" class="box">$600</div>
-        <div id="sixone" class="box">$600</div>
-        <div id="sixtwo" class="box">$600</div>
-        <div id="sixthree" class="box">$600</div>
-        <div id="sixfour" class="box">$600</div>
-        <div id="sixfive" class="box">$600</div>
+        <div class="categories">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>Javascript</div>
+            <div>jquery</div>
+            <div>Hacks</div>
+            <div>Fun Facts</div>
         </div>
-      <div class="eighthundy">
-        <div id="eighto" class="box">$800</div>
-        <div id="eightone" class="box">$800</div>
-        <div id="eighttwo" class="box">$800</div>
-        <div id="eightthree" class="box">$800</div>
-        <div id="eightfour" class="box">$800</div>
-        <div id="eightfive" class="box">$800</div>
+        <div class="monies">
+            <div class="twohundy">
+                <div id="twoo" class="box">$200</div>
+                <div id="twoone" class="box">$200</div>
+                <div id="twotwo" class="box">$200</div>
+                <div id="twothree" class="box">$200</div>
+                <div id="twofour" class="box">$200</div>
+                <div id="twofive" class="box">$200</div>
+            </div>
+            <div class="fourhundy">
+                <div id="fouro" class="box">$400</div>
+                <div id="fourone" class="box">$400</div>
+                <div id="fourtwo" class="box">$400</div>
+                <div id="fourthree" class="box">$400</div>
+                <div id="fourfour" class="box">$400</div>
+                <div id="fourfive" class="box">$400</div>
+            </div>
+            <div class="sixhundy">
+                <div id="sixo" class="box">$600</div>
+                <div id="sixone" class="box">$600</div>
+                <div id="sixtwo" class="box">$600</div>
+                <div id="sixthree" class="box">$600</div>
+                <div id="sixfour" class="box">$600</div>
+                <div id="sixfive" class="box">$600</div>
+            </div>
+            <div class="eighthundy">
+                <div id="eighto" class="box">$800</div>
+                <div id="eightone" class="box">$800</div>
+                <div id="eighttwo" class="box">$800</div>
+                <div id="eightthree" class="box">$800</div>
+                <div id="eightfour" class="box">$800</div>
+                <div id="eightfive" class="box">$800</div>
+            </div>
+            <div class="thousand">
+                <div id="thousando" class="box">$1000</div>
+                <div id="thousandone" class="box">$1000</div>
+                <div id="thousandtwo" class="box">$1000</div>
+                <div id="thousandthree" class="box">$1000</div>
+                <div id="thousandfour" class="box">$1000</div>
+                <div id="thousandfive" class="box">$1000</div>
+            </div>
         </div>
-    <div class="thousand">
-        <div id="thousando" class="box">$1000</div>
-        <div id="thousandone" class="box">$1000</div>
-        <div id="thousandtwo" class="box">$1000</div>
-        <div id="thousandthree" class="box">$1000</div>
-        <div id="thousandfour" class="box">$1000</div>
-        <div id="thousandfive" class="box">$1000</div>
-        </div>
-      </div>
-    </div>
-   <div class="players">
-    <div class="playerone">
-    <form class="names">
-         Player 1:<br> 
-            <input type="text" name="Player Name" placeholder="Arya Stark"><br>
-          </form>
-          <div class="score-board">
-                <div class="player">
-                    <h4>Score</h4>
-                    <div class="score-box">
-                       0 
-                    </div>
-                        </div>
-                            </div>
-        </div>
-       <div class="playertwo">
-        <form class="namess">
-            Player 2<br>
-                <input type="text" name="Player Name" placeholder="Jon Snow"><br>
-            </form>
+
+        <div class="players">
+            <div class="playerone">
+                <form class="names">
+                    Player 1:<br>
+                    <input type="text" name="Player Name" placeholder="Arya Stark"><br>
+                </form>
                 <div class="score-board">
-                        <div class="score-board">
-                                <div class="player">
-                                    <h4>Score</h4>
-                                    <div class="score-box">
-                                       0 
-                                    </div>
-                                        </div>
-                                            </div>
-      
+                    <div class="player">
+                        <h4>Score</h4>
+                        <div class="score-box">
+                            0
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playertwo">
+                <form class="namess">
+                    Player 2<br>
+                    <input type="text" name="Player Name" placeholder="Jon Snow"><br>
+                </form>
+                <div class="score-board">
+                    <div class="score-board">
+                        <div class="player">
+                            <h4>Score</h4>
+                            <div class="score-box">
+                                0
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="question"></div>
     </div>
-</div>
-    </div>
-   
 </body>
 </html>
