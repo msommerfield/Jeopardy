@@ -9,6 +9,11 @@
 //   });
 //include the content in the model on the main page
 
+//***Player Score
+
+// let totalscore = 0;
+// totalscore += parseInt(score);
+
 // ****Overall Questions for the $200 row
 let gamequestions = {
     twoo: {
@@ -59,7 +64,7 @@ let gamequestions = {
             "What is concatenation?"
         ]
     },
-// ****Overall Questions for the $400 row
+    // ****Overall Questions for the $400 row
     fouro: {
         question: "src, alt, href are examples of HTML this",
         rightanswer: "What is an attribute?",
@@ -108,7 +113,7 @@ let gamequestions = {
             "What are primitive operators??"
         ]
     },
-// ****Overall Questions for the $600 row
+    // ****Overall Questions for the $600 row
     sixo: {
         question: "This element will create a hyperlink on a webpage that when clicked will take the user to google.com? ",
         rightanswer: `<a href="http://www.google.com">Google</a>`,
@@ -157,7 +162,7 @@ let gamequestions = {
             "wWhat is a variable?"
         ]
     },
-// ****Overall Questions for the $800 row
+    // ****Overall Questions for the $800 row
     eighto: {
         question: "This is the correct HTML for inserting an image.",
         rightanswer: `"What is <img src equals "image dot gif" alt=“MyImage">?"`,
@@ -206,7 +211,7 @@ let gamequestions = {
             "What are Data Type Objects?"
         ]
     },
-// ****Overall Questions for the $1000 row
+    // ****Overall Questions for the $1000 row
     thousando: {
         question: `"<h1>Haaay</h1>  <h1 id=“Yo">Haay</h1>"`,
         rightanswer: "How do you rewrite the element with an added ID?",
@@ -257,40 +262,69 @@ let gamequestions = {
     }
 }
 function hideGame() {
-    $('.gameboard').hide() 
+    $('.gameboard').hide()
 }
 
 function displayQuestion(event) {
-    console.log("The id of the box we clicked on is: ", event.target.id);
-    hideGame();
-
-
+    // console.log("The id of the box we clicked on is: ", event.target.id);
+    // hideGame();
+    $('.gameboard').hide()
+    $('#questionContainer').show()
     // SHOW QUESTION THAT WAS CLICKED
     // console.log(gamequestions[event.target.id])
-    $("#question").append(gamequestions[event.target.id].question)   
+    $("#question").append(gamequestions[event.target.id].question)
+    let cardId = event.target.id 
+    console.log(event.target.id)
     let btn = $('<button class="right"></button>')
-    btn.append(gamequestions[event.target.id].rightanswer)
+    let right = gamequestions[event.target.id].rightanswer
+    btn.text(right)
+    console.log(right)
+
+
     $("#question").append(btn)
-    for (let i=0; i <gamequestions[event.target.id].wronganswer.length; i++) {
-        let btn2 = $('<button></button>')
-        btn2.append(gamequestions[event.target.id].wronganswer[i])
+    $(`#${cardId}`).addClass('dissapear')
+    for (let i = 0; i < gamequestions[event.target.id].wronganswer.length; i++) {
+        let btn2 = $('<button class="wrong"></button>')
+        btn2.text(gamequestions[event.target.id].wronganswer[i])
         $("#question").append(btn2)
     }
 }
-	
+
 document.querySelectorAll(".box").forEach((box) => {
     box.addEventListener("click", displayQuestion);
 })
 
-// $('#questionContainer').click(function () {
-//     if (this.element == button) {
-//        console.log('button clicked');
-//     }
-//  });
+// Add points to score
 
  $('#questionContainer').on("click",function(e){
-    if($(e.target).hasClass('rightanswer')){
-      console.log('rightanswer');
+    if($(e.target).hasClass('right')){
+
+      console.log(e.target, 'rightanswer');
+      $('#question').text('')
+      $('#questionContainer').hide()
+     $('.gameboard').show()
     }
   });
-//event listener to question container, when clicked .target if its a button, see if button contained class of right
+
+  $('#questionContainer').on("click",function(e){
+    if($(e.target).hasClass('wrong')){
+    $('#question').text('')
+      $('#questionContainer').hide()
+     $('.gameboard').show()
+     console.log(e.target)
+    $(e.target).css("visibility", "hidden")
+    }
+  });
+// // //After question is answered display gameboard and hide clicked question
+// $('#questionContainer').on("click",function(e){
+//     if($(e.target).
+// //$('button').click(function () {
+// //     
+// })
+
+
+//create a way of tracking the score
+// var playeronescore = 
+//var playertwoscore =
+//if player clicks right answer then they get point value allocated to them
+//if player clicks wrong answer no points are added

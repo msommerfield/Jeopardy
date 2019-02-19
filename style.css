@@ -94,6 +94,14 @@ body {
     margin: 5px;
 }
 
+.dissapear {
+    opacity: 0;
+}
+
+.show {
+    display: block;
+}
+
 .players {
     flex-direction: row;
     display: inline;
@@ -150,22 +158,6 @@ button {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffee66;
 }
-
-/* .modal {
-    font-family: 'Righteous', cursive;
-    color: rgb(219, 200, 28);
-    font-size: 18px;
-}
-
-a {
-    border-style: solid;
-    border-width: 4px;
-    border-color: palegoldenrod;
-    padding: 10px;
-    margin: 10px; 
-    color: rgb(219, 200, 28);
-    text-decoration: none;
-} */
 
 
 
