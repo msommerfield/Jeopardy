@@ -114,6 +114,16 @@ body {
     display: inline;
 }
 
+#questionContainer {
+    font-family: 'Righteous', cursive;
+    color: rgb(219, 200, 28);
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    flex-direction: column;
+}
+
 /* .modal {
     font-family: 'Righteous', cursive;
     color: rgb(219, 200, 28);

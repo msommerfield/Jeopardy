@@ -282,6 +282,15 @@ document.querySelectorAll(".box").forEach((box) => {
     box.addEventListener("click", displayQuestion);
 })
 
-$('#questionContainer').on.target. 
-$( "button" ).on
+// $('#questionContainer').click(function () {
+//     if (this.element == button) {
+//        console.log('button clicked');
+//     }
+//  });
+
+ $('#questionContainer').on("click",function(e){
+    if($(e.target).hasClass('rightanswer')){
+      console.log('rightanswer');
+    }
+  });
 //event listener to question container, when clicked .target if its a button, see if button contained class of right
