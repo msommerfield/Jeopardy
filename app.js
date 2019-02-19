@@ -10,7 +10,7 @@
 //include the content in the model on the main page
 
 // ****Overall Questions for the $200 row
-let twohundredpointquestions = {
+let gamequestions = {
     twoo: {
         question: "This is the first line of an HTML file",
         rightanswer: "What is  <!doctype html> ?",
@@ -44,7 +44,7 @@ let twohundredpointquestions = {
         ]
     },
     twofour: {
-        question: "Special characters for formatting in strings that can also be applied within quotes that can't be entered the same way as you would in a word processor, including "\n" = new line and  // "\t" = tab.",
+        question: `Special characters for formatting in strings that can also be applied within quotes that can't be entered the same way as you would in a word processor, including "\\n" = new line and  // "\\t" = tab.`,
         rightanswer: "What are escape sequences?",
         wronganswer: [
             "What are input sequences?",
@@ -58,10 +58,8 @@ let twohundredpointquestions = {
             "What is referencing?",
             "What is concatenation?"
         ]
-    }
-}
+    },
 // ****Overall Questions for the $400 row
-let fourhundredpointquestions = {
     fouro: {
         question: "src, alt, href are examples of HTML this",
         rightanswer: "What is an attribute?",
@@ -109,13 +107,11 @@ let fourhundredpointquestions = {
             "What are native operations",
             "What are primitive operators??"
         ]
-    }
-}
+    },
 // ****Overall Questions for the $600 row
-let sixhundredpointquestions = {
     sixo: {
         question: "This element will create a hyperlink on a webpage that when clicked will take the user to google.com? ",
-        rightanswer: ``"<a href="http://www.google.com">Google</a>",`
+        rightanswer: `<a href="http://www.google.com">Google</a>`,
         wronganswer: [
             "<a Google = “http://www.google.com”> </a>",
             "<a src= “http://www.google.com”> Google</a>"
@@ -160,10 +156,8 @@ let sixhundredpointquestions = {
             "What is null?",
             "wWhat is a variable?"
         ]
-    }
-}
+    },
 // ****Overall Questions for the $800 row
-let eighthundredpointquestions = {
     eighto: {
         question: "This is the correct HTML for inserting an image.",
         rightanswer: `"What is <img src equals "image dot gif" alt=“MyImage">?"`,
@@ -211,10 +205,8 @@ let eighthundredpointquestions = {
             "What are Array Methods?",
             "What are Data Type Objects?"
         ]
-    }
-}
+    },
 // ****Overall Questions for the $1000 row
-let thousandpointquestions = {
     thousando: {
         question: `"<h1>Haaay</h1>  <h1 id=“Yo">Haay</h1>"`,
         rightanswer: "How do you rewrite the element with an added ID?",
@@ -265,10 +257,17 @@ let thousandpointquestions = {
     }
 }
 
+
 //Adding the clickability of the divs that allows a modal to pop up
-$('#twoo').click(function) {
-.append(.modal('show').twohundredpointquestions.twohundredpointquestions)
+$('#twoo').click(function); {
+('#twoo').append.modal('show').twohundredpointquestions.twohundredpointquestions)
+    
 }
+
+let btn = $('<button></button>')
+btn.append()
+
+//create an event listener with the div called gameboard and hide the gameboard
 
 //or document.getElementById("twoo").showModal();
 
